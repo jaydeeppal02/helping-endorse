@@ -1,0 +1,57 @@
+.img-hero {
+    width:80%;
+    height: 520px;
+    background-image: url('/hero.png');
+    background-size:cover;
+    background-position: center;
+    margin-left: 100px;
+   
+    
+}
+@media (max-width:768px) {
+    .img-hero {
+    width:100%;
+    
+     margin:0;
+
+}
+}
+.google_ads {
+    background:url('/google ads.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.facebook_ads{
+    background:url('/facebook_ads.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.get_started div {
+    width:250px;
+    height:200px;
+    background-color: #f0f0f0;
+   
+}
+.get_started div h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+.get_started div {
+    background-image: url('/tv1.png');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    
+}
+
+.get_started div:nth-child(2) {
+    background-image: url('/youtube.png');
+    background-size: cover;
+    background-position: center;
+}
+.get_started div:nth-child(3) {
+    background-image: url('/social_media.png');
+    background-size: cover;
+    background-position: center;
+}
