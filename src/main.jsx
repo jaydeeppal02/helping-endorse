@@ -5,7 +5,7 @@ import React from 'react'
 import { createHashRouter } from 'react-router-dom' 
 import { RouterProvider } from 'react-router-dom'
 import Root from './Root.jsx'
-import Appp from './New.jsx'
+import App from './App.jsx'
 import Login from './components/Login.jsx'
 import Signup from './components/Signup.jsx'
 import Get_started from './components/Get_started.jsx'
@@ -16,7 +16,7 @@ const router = createHashRouter([
     path: '/',
     element: <Root/>,
     children: [
-      { path: '/', element: <Appp/> },
+      { path: '/', element: <App/> },
       { path: "/login", element: <Login/> },
       { path: '/signup', element: <Signup/> },
       { path: '/get_started', element: <Get_started/> }
